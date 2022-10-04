@@ -9,6 +9,7 @@ function reverseString(string) {
     }
 
     const newString = newArr.join('');
+    // Testing
 
     return newString;
 }
