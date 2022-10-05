@@ -7,8 +7,11 @@ function caesarCipher(string) {
     // const regex = new RegExp('/[a-zA-z]/g');
 
     for (let i = 0; i < arr.length; i++) {
-        if (/^[a-zA-Z]+$/.test(arr[i])) {
-            newArr.push(String.fromCharCode(arr[i].charCodeAt()+5));
+        if (/^[a-zA-Z]+$/.test(arr[i])) { // a to w
+          if (arr[i].charCodeAt() > ) { // v-z is -19
+            
+          }
+          newArr.push(String.fromCharCode(arr[i].charCodeAt()+5));  
         }
     }
 
